@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<div class="moattravel-wrapper">
-			<!-- ヘッダー -->
+			<!-- ヘッダー１ ｄ-->
 			<div th:replace="~{fragment :: header}"></div>
 			
 			<main>
@@ -25,7 +25,7 @@
 								</ol>
 							</nav>
 							
-							<h1 class="mb-4 text-center">民宿情報編集</h1>
+							<h1 class="mb-4 text-center">民宿情報編集ｓ</h1>
 							
 							<form method="post" th:action="@{/admin/houses/__${houseEditForm.getId()}__/update}" th:object="${houseEditForm}" enctype="multipart/form-data">
 								<input type="hidden" th:field="*{id}">
